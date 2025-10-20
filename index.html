@@ -453,6 +453,7 @@
     </symbol>
   </svg>
   </div>
+ <!-- Marquiz script start -->
         <script data-skip-moving="true">
             (function(w, d, s, o) {
                 var j = d.createElement(s);
@@ -478,6 +479,31 @@
                 openOnExit: true,
                 disableOnMobile: false
             });
+        </script>
+        <!-- Marquiz script end -->
+        <script data-skip-moving="true">
+            (function(t, p) {
+                window.Marquiz ? Marquiz.add([t, p]) : document.addEventListener('marquizLoaded', function() {
+                    Marquiz.add([t, p])
+                })
+            }
+            )('Pop', {
+                id: '661e8b347ec3420026297e6b',
+                title: 'Получить расчет',
+                text: 'Быстрый расчет стоимости столешницы',
+                delay: 10,
+                textColor: '#000000',
+                bgColor: '#ddad30',
+                svgColor: '#000000',
+                closeColor: '#ffffff',
+                bonusCount: 2,
+                bonusText: 'Вам доступны бонусы и скидка',
+                type: 'side',
+                position: 'position_top-left',
+                rounded: true,
+                shadow: 'rgba(221, 173, 48, 0)',
+                blicked: true
+            })
         </script>
   <script src="assets/script/script.js"></script>
 </body>
